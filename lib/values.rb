@@ -9,8 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  array1 = groceries.values 
-  array1.each do |value|
-    array2 << value
+  array1 = groceries.values.flatten
+  array1
   end
 end
