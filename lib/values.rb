@@ -10,5 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   array1 = groceries.values 
-  array 
+  array1.each do |value|
+    array2 << value
+  end
 end
